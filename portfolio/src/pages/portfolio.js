@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Portfolio() {
-    return("test");
+    return("test portfolio");
 }
 
 export default Portfolio;
