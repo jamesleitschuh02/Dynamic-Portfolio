@@ -4,7 +4,7 @@ import Card from '../../components/Card/Card';
 
 function Portfolio() {
     return(
-        <div className="background">
+        <div>
         {projects.map((index) => {
             return(
             <Card 

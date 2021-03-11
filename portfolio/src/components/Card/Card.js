@@ -5,7 +5,7 @@ import './Card.css';
 
 function Card(props) {
     return (
-        <div className="container">
+        
             <div className="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
@@ -15,8 +15,9 @@ function Card(props) {
                             <h4>{props.link}</h4>
                     </div>
                 </div>
+                <div class="col-lg-3"></div>
             </div>
-        </div>
+        
     );
 }
 

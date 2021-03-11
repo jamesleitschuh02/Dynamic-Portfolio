@@ -8,6 +8,7 @@ import "./Home.css";
 
 function Home() {
     return(
+        <div className="background">
         <Container>
             <Row>
                 <Column size={4}>
@@ -24,6 +25,7 @@ function Home() {
                 </Column>
             </Row>
         </Container>
+        </div>
     );
 }
 
