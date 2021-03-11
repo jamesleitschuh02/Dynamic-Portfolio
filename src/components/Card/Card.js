@@ -7,15 +7,15 @@ function Card(props) {
     return (
         
             <div className="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6">
+                <div className="col-lg-3"></div>
+                <div className="col-lg-6">
                     <div className="test">
                         <h1>{props.title}</h1>
                             <img src={props.image} alt="img" className="projectImage" />
                             <h4>{props.link}</h4>
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
+                <div className="col-lg-3"></div>
             </div>
         
     );

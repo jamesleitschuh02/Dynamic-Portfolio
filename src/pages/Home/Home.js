@@ -3,15 +3,15 @@ import Column from '../../components/Column/Column';
 import Row from '../../components/Row/Row';
 import Container from '../../components/Container/Container';
 
+import profile from '../../assets/images/me.jpg';
 import "./Home.css";
-// import profile from '../images/me.jpg'
 
 function Home() {
     return(
         <Container>
             <Row>
                 <Column size={4}>
-                    <img src="../images/me.jpg" alt="me" className="responsive" /> 
+                    <img src={profile} alt="me" className="responsive" /> 
                 </Column>               
                 <Column size={4}>
                     <h2>About Me</h2>
