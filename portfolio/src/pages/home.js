@@ -3,14 +3,12 @@ import Column from '../components/Column/Column';
 import Row from '../components/Row/Row';
 import Container from '../components/Container/Container';
 
-const profilePicture = require("../utils/Images/me.jpg");
-
 function Home() {
     return(
         <Container>
             <Row>
                 <Column size={4}>
-                    <img src={profilePicture} alt="me" className="responsive" /> 
+                    <img src={require('../images/me.jpg')} alt="me" className="responsive" /> 
                 </Column>               
                 <Column size={4}>
                     <h2>About Me</h2>
