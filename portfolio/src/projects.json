@@ -1,0 +1,22 @@
+[
+    {
+      "ProjectTitle": "Whats Streamin",
+      "ImageLocation": "images/whatstreamin.png",
+      "Link": "https://quiet-beach-99514.herokuapp.com/"
+    },
+    {
+        "ProjectTitle": "Word Connections!",
+        "ImageLocation": "images/wordconnections.png",
+        "Link": "https://jamesleitschuh02.github.io/Word-Connections/"
+    },
+    {
+        "ProjectTitle": "Weather Manager",
+        "ImageLocation": "images/weather-manager.png",
+        "Link": "https://jamesleitschuh02.github.io/weather-manager/"
+    },
+    {
+        "ProjectTitle": "Password Randomizer",
+        "ImageLocation": "images/password-generator.png",
+        "Link": "https://jamesleitschuh02.github.io/Password-Generator/"
+    }
+]
