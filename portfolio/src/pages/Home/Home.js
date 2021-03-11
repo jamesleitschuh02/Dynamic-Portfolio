@@ -1,7 +1,9 @@
 import React from 'react';
-import Column from '../components/Column/Column';
-import Row from '../components/Row/Row';
-import Container from '../components/Container/Container';
+import Column from '../../components/Column/Column';
+import Row from '../../components/Row/Row';
+import Container from '../../components/Container/Container';
+
+import "./Home.css";
 // import profile from '../images/me.jpg'
 
 function Home() {
@@ -9,7 +11,7 @@ function Home() {
         <Container>
             <Row>
                 <Column size={4}>
-                    <img src="images/me.jpg" alt="me" className="responsive" /> 
+                    <img src="../images/me.jpg" alt="me" className="responsive" /> 
                 </Column>               
                 <Column size={4}>
                     <h2>About Me</h2>

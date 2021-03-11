@@ -1,8 +1,8 @@
 import React from 'react';
-import ContactForm from '../components/ContactForm/ContactForm';
-import Container from '../components/Container/Container';
-import Row from '../components/Row/Row';
-import Column from '../components/Column/Column';
+import ContactForm from '../../components/ContactForm/ContactForm';
+import Container from '../../components/Container/Container';
+import Row from '../../components/Row/Row';
+import Column from '../../components/Column/Column';
 
 function Contact() {
     return(
