@@ -6,6 +6,7 @@ import Column from '../../components/Column/Column';
 
 function Contact() {
     return(
+        <div className="container">
         <Container>
             <Row>
                 <Column size={12}>
@@ -14,6 +15,7 @@ function Contact() {
                 <ContactForm />
             </Row>
         </Container>
+        </div>
     );
 }
 
