@@ -8,8 +8,8 @@ import "./Home.css";
 
 function Home() {
     return(
-        <Container>
-            <Row>
+        <Container styles="Container">
+            <Row styles="none">
                 <Column size={4}>
                     <img src={profile} alt="me" className="responsive" /> 
                 </Column>               

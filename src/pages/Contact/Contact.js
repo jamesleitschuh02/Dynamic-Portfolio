@@ -6,16 +6,14 @@ import Column from '../../components/Column/Column';
 
 function Contact() {
     return(
-        <div className="container">
-        <Container>
-            <Row>
+        <Container styles="contact-container">
+            <Row styles="contact-h1">
                 <Column size={12}>
                     <h1>Contact Me</h1>
                 </Column>
                 <ContactForm />
             </Row>
         </Container>
-        </div>
     );
 }
 

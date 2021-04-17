@@ -3,4 +3,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    padding: 5px;
+}
+.sendBtn {
+    background-color: rgb(75, 212, 21);
+    margin-top: 5px;
+    border-radius: 5px;
 }
